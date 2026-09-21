@@ -30,6 +30,27 @@ its on  v0.1-alpha — actively in development.
   - You can return your interface to managed mode with one click
     
     ## Installation
+## 0. Install dependencies
+
+### Debian / Ubunt (slopbuntu) / Linux Mint
+
+```bash
+sudo apt update
+sudo apt install -y git cmake build-essential libpcap-dev libssl-dev python3 iw rfkill
+```
+
+### Arch Linux , i use arch btw 
+
+```bash
+sudo pacman -Syu
+sudo pacman -S --needed git cmake base-devel libpcap openssl python iw rfkill
+```
+
+Wait dont panic haha these packages are important for my tool to work , well I think some of them are built in the kernel but we need to add them 
+
+---
+
+## 1. Clone libtins
 
 ### 1. Install libtins , if you have it skip to step 2
 
@@ -52,7 +73,7 @@ git clone https://github.com/imhamouda/Air-Switcher-Networking-tool.git
 cd Air-Switcher-Networking-tool
 ```
 
-### 3. Build the C++ engine
+### 3. Build the ultra fast sniffer 
 
 ```bash
 chmod +x build.sh
