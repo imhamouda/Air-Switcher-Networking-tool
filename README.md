@@ -88,3 +88,9 @@ This compiles `src/sniffer.cpp` into `build/libsniffer-test.so`.
 chmod +x src/main.py
 sudo ln -s "$(pwd)/src/main.py" /usr/local/bin/airswitcher
 ```
+### Some features i may add soon 
+
+- Capture saving in a .cap file
+- Packets injection
+- More specific and advanced interface detection
+- The ready AP feature: turns 2 wireless interfaces to a real and secure access point (good for MITM)
